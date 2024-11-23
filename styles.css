@@ -1,0 +1,107 @@
+.hero {
+ background: url("./images/dhaka-hero.jpg");
+ background-repeat: no-repeat;
+ background-position: center; 
+ background-size: cover;
+ color: #FFFFFF;
+ text-align: center;
+ height: 200px;
+ padding: 180px 100px 40px 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.hero-title{
+  border: 1px solid none;
+  background-color: #1D3557;
+  border-radius: 10px;
+  width: 225px;
+  height: 42px;
+  text-align: center;
+  margin-bottom: 10px;
+ 
+}
+
+.hero-text {
+  border: 1px solid none;
+  background-color: #457B9D;
+  border-radius: 10px;
+  width: 412px;
+  height: 52px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.img1{
+
+  width: 250px;
+  border-radius: 50%;
+  
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  padding: 20px;
+}
+
+.container-headline, .part1-heading{
+  text-align: center;
+  color:  #457B9D;
+
+}
+
+.part1-text{
+  text-align: center;
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F1FAEE;
+  margin-bottom: 30px;
+}
+
+.guide{
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  height: 205px;
+  background: #A8DADC;
+  padding: 10px;
+  color: #1D3557;
+  border-bottom: 5px solid  #1D3557;;
+  border-radius: 5px;
+  padding: 15px;
+  margin: auto;
+}
+
+.profile{
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.guide-text{
+  font-style: italic;
+}
